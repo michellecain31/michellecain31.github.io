@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Michelle Naomi Cain – Portfolio</title>
+  <meta name="description" content="Junior Full Stack Developer | B.Sc. Computer Science | AWS & Amazon Certified | Passionate about data-driven and AI-powered development." />
+  <style>
+    :root {
+      --bg: #fdf8f6; /* soft cream */
+      --fg: #3b3b3b;
+      --muted: #7a7a7a;
+      --primary: #f59cb1; /* soft pink */
+      --card: #fffaf9; /* very light rose */
+      --accent: #d27b98; /* rose accent */
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; font-family: 'Poppins', ui-sans-serif, system-ui; background: var(--bg); color: var(--fg); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: 1080px; margin: 0 auto; padding: 32px; }
+    header { display: flex; align-items: center; justify-content: space-between; padding-bottom: 16px; }
+    .logo { font-weight: 700; font-size: 1.2rem; color: var(--accent); }
+    nav a { margin-left: 16px; color: var(--muted); }
+    nav a:hover { color: var(--accent); }
+    .hero { margin: 60px 0; }
+    .hero h1 { font-size: clamp(28px, 4vw, 46px); margin-bottom: 10px; color: var(--accent); }
+    .hero p { color: var(--fg); font-size: 18px; line-height: 1.6; max-width: 700px; }
+    .btn { display: inline-block; margin-top: 20px; padding: 10px 18px; background: var(--accent); border-radius: 12px; color: white; font-weight: 600; box-shadow: 0 3px 8px rgba(210, 123, 152, 0.3); }
+    .btn:hover { background: #c7688d; }
+    .section { margin: 80px 0; }
+    h2 { font-size: 28px; border-bottom: 3px solid var(--accent); padding-bottom: 6px; margin-bottom: 20px; color: var(--accent); }
+    .card { background: var(--card); border-radius: 16px; padding: 20px; margin-bottom: 20px; border: 1px solid #f1d6dc; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+    .pill { display: inline-block; background: #fce8ef; padding: 6px 10px; border-radius: 20px; margin: 4px; font-size: 13px; color: #8b4762; }
+    footer { text-align: center; margin-top: 60px; color: var(--muted); font-size: 14px; border-top: 1px solid #f1d6dc; padding-top: 20px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">Michelle Naomi Cain</div>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Junior Full Stack Developer</h1>
+      <p>B.Sc. Computer Science Graduate (HIT) | AWS & Amazon Full Stack Certified | Skilled in React, Node.js, FastAPI, and MongoDB. Passionate about building scalable, data-driven web applications and AI-powered systems that enhance user experience.</p>
+      <a class="btn" href="https://github.com/michellecain31" target="_blank">View My Work →</a>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <div class="card">
+        <h3>BiteMe – Full Stack Food Ordering Website</h3>
+        <p>Developed a complete web app using React and FastAPI, integrated MongoDB for data persistence, and Dockerized the system for efficient deployment. Implemented secure API authentication and optimized queries for performance.</p>
+        <p><a href="https://github.com/EASS-HIT-PART-A-2024-CLASS-VI/BiteMe_Michelle" target="_blank">View on GitHub</a></p>
+        <div>
+          <span class="pill">React</span><span class="pill">FastAPI</span><span class="pill">MongoDB</span><span class="pill">Docker</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Cost Manager RESTful API</h3>
+        <p>Node.js & Express.js API for expense tracking and analytics with MongoDB. Implemented JWT authentication and role-based access control. Produced monthly summary reports and data visualizations.</p>
+        <p><a href="https://github.com/michellecain31/Cost-Manager-Final-Project" target="_blank">View on GitHub</a></p>
+        <div>
+          <span class="pill">Node.js</span><span class="pill">Express</span><span class="pill">MongoDB</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Smart Campus – AR Navigation App</h3>
+        <p>Built in Android Studio using Kotlin and ARCore. Implemented MVVM architecture and Firestore backend. Enables indoor navigation with augmented reality guidance on campus environments.</p>
+        <p><a href="https://github.com/AR-Smart-Navigation-Campus/AR-Smart-Navigation-Campus" target="_blank">View on GitHub</a></p>
+        <div>
+          <span class="pill">Kotlin</span><span class="pill">ARCore</span><span class="pill">Firestore</span>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="card">
+        <p><strong>Programming Languages:</strong> C, C#, C++, Java, JavaScript, Python, Kotlin</p>
+        <p><strong>Web & Backend:</strong> Node.js, React, REST APIs, FastAPI</p>
+        <p><strong>Databases & Cloud:</strong> MongoDB, SQL, AWS, Docker</p>
+        <p><strong>Tools:</strong> Git, Linux, Jira, Slack</p>
+        <p><strong>Currently Learning:</strong> CI/CD, React Native</p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <div class="card">
+        <p>Hi! I'm Michelle Naomi Cain, a passionate Junior Full Stack Developer with a strong background in Computer Science and hands-on experience developing scalable applications. I’m driven by curiosity, love learning new technologies, and enjoy creating software that combines backend efficiency with beautiful user interfaces.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="card">
+        <p>Email: <a href="mailto:michellecainn@gmail.com">michellecainn@gmail.com</a></p>
+        <p>Phone: 053-5269936</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/michelle-cain-8b4895258/" target="_blank">michelle-cain</a></p>
+        <p>GitHub: <a href="https://github.com/michellecain31" target="_blank">michellecain31</a></p>
+      </div>
+    </section>
+
+    <footer>© <span id="year"></span> Michelle Naomi Cain · Built with HTML & CSS · Hosted on GitHub Pages</footer>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
